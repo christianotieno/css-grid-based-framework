@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 module.exports = {
     "extends": "stylelint-config-recommended",
@@ -65,7 +65,7 @@ module.exports = {
         "function-parentheses-newline-inside": "always-multi-line",
         "function-parentheses-space-inside": "never-single-line",
         "function-whitespace-after": "always",
-        "indentation": 4,
+        "indentation": 2,
         "length-zero-no-unit": true,
         "max-empty-lines": 1,
         "media-feature-colon-space-after": "always",
@@ -106,4 +106,4 @@ module.exports = {
         "value-list-comma-space-before": "never",
         "value-list-max-empty-lines": 0,
     },
-}
+};
