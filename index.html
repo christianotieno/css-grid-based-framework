@@ -8,9 +8,30 @@
   <link rel="stylesheet" href="./src/styles/medium.css">
   <link rel="stylesheet" href="./src/styles/reset.css">
   <link rel="stylesheet" href="./src/styles/small.css">
+  <link rel="stylesheet" href="./src/styles/framework.css">
   <title>Grid Framework</title>
+  <style>
+    .container{
+      background: coral;
+    }
+    .col-lg-6{
+      border: 1px solid #000;
+      background: cadetblue;
+    }
+  </style>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-xl-4">4</div>
+      <div class="col-lg-4 col-xl-4">4</div>
+      <div class="col-lg-4 col-xl-4">4</div>
+    </div>
+    <!-- row 2 -->
+    <div class="row">
+      <div class="col-lg-6 col-xl-4">4</div>
+      <div class="col-lg-6 col-xl-4">4</div>
+    </div>
+  </div>
 </body>
 </html>
