@@ -5,6 +5,7 @@ $header-font-weight: 300;
 body{
   font-family: $fontFamily;
   color: $text-color;
+  // background: #000;
 }
 header {
   background: #3c6eb4;
@@ -59,3 +60,62 @@ header {
   }
 }
 
+.more-content{
+  padding: 50px;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  // display: flex;
+  .content{
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background: #fff;
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+    // padding-left: 10px;
+    flex-direction: column;
+    // position: relative;
+    // padding: 10px 0;
+    p{
+      margin-top: 40px;
+      // background: #000;
+    }
+    span{
+      display: block;
+      // align-self: center;
+      text-align: right;
+      padding-top: 10px;
+      padding-right: 10px;
+      text-transform: uppercase;
+      color: #6c757d;
+      // background: #000;
+    }
+    .footer-view{
+      display: flex;
+      justify-content: space-between;
+      padding: 0 5px;
+      a{
+        color: #007bff;
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  [class*="col-"]{
+    position: relative;
+    // border: 1px solid #000;
+    padding-top: 35px;
+    &:last-child{
+      margin-left: 10px;
+    }
+    .img-view{
+      position: absolute;
+      top: 0;
+      left: 10px;
+      // border: 1px solid green;
+    }
+  }
+}

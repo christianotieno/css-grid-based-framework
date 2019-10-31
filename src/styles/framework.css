@@ -367,4 +367,32 @@
     width: calc((11 / 12 * 100%) - 2 * 5px);
   }
 }
+
+.btn-download-green {
+  color: #61b921;
+  background: none;
+  border-style: solid;
+  border-color: #61b921;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.btn-download-green:hover {
+  background: #61b921;
+  color: #fff;
+}
+
+.btn-download-orange {
+  color: #c17d2a;
+  background: none;
+  border-style: solid;
+  border-color: #c17d2a;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.btn-download-orange:hover {
+  background: #c17d2a;
+  color: #fff;
+}
 /*# sourceMappingURL=framework.css.map */

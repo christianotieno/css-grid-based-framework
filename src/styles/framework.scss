@@ -48,3 +48,33 @@ $col-margin : 5px;
     }
   }
 }
+
+// Styling button
+@mixin colors($color){
+    color:$color;
+}
+.btn-download-green{
+    @include colors(#61b921);
+    background: none;
+    border-style: solid;
+    border-color: #61b921;
+    border-radius: 5px;
+    padding: 5px 5px;
+    &:hover{
+        background: #61b921;
+        color: #fff;
+    }
+}
+
+.btn-download-orange{
+    @include colors(#c17d2a);
+    background: none;
+    border-style: solid;
+    border-color: #c17d2a;
+    border-radius: 5px;
+    padding: 5px 5px;
+    &:hover{
+        background: #c17d2a;
+        color: #fff;
+    }
+}
