@@ -137,4 +137,52 @@ header a:hover {
   top: 0;
   left: 10px;
 }
+
+.more-fed-service {
+  background: #e9ecef;
+  padding-bottom: 35px;
+}
+
+.more-fed-service .services-logo {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.more-fed-service .more-services {
+  height: 150px;
+  width: 85%;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.more-fed-service .more-services p {
+  margin-top: 55px;
+}
+
+.more-fed-service .more-services a {
+  display: block;
+  text-align: right;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.more-fed-service .more-services a:hover {
+  text-decoration: underline;
+}
+
+.more-fed-service [class*="col-"] {
+  position: relative;
+  padding-top: 35px;
+}
+
+.more-fed-service [class*="col-"]:nth-child(2) {
+  margin: 0 10px;
+}
+
+.more-fed-service [class*="col-"] .img-view {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
 /*# sourceMappingURL=style.css.map */

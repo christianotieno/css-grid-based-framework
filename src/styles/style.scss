@@ -119,3 +119,50 @@ header {
     }
   }
 }
+
+.more-fed-service{
+  background: #e9ecef;
+  padding-bottom: 35px;
+  // border: 2px solid green;
+  // width: 90%;
+  // margin: 0 auto;
+  .services-logo{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .more-services{
+    height: 150px;
+    width: 85%;
+    // margin: 0 auto; 
+   border: 1px solid #dee2e6;
+   border-radius: 5px;
+    background: #fff;
+    p{
+      margin-top: 55px;
+    }
+    a{
+      // border: 1px solid #000;
+      display: block;
+      text-align: right;
+      margin-right: 15px;
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  [class*="col-"]{
+    position: relative;
+    // border: 1px solid #000;
+    padding-top: 35px;
+    &:nth-child(2){
+      margin: 0 10px;
+    }
+    .img-view{
+      position: absolute;
+      top: 0;
+      left: 10px;
+      // border: 1px solid green;
+    }
+  }
+}
