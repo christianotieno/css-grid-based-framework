@@ -1,37 +1,61 @@
-$fontFamily:"Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$fontFamily:'Open Sans', sans-serif;
+$text-color: #212529;
+$header-font-weight: 300;
 
+body{
+  font-family: $fontFamily;
+  color: $text-color;
+}
 header {
   background: #3c6eb4;
   font-family: $fontFamily;
-  height: 50px;
-  // display: flex;
-  // justify-content: space-around;
-  // border: 1px solid yellow;
-}
-
-.col-lg-4,
-.col-xl-4 {
-  padding: 0;
-  // margin-left: 0;
-  // border: 1px solid red;
-}
-
-.header-links {
-  display: flex;
-  list-style: none;
-  margin: 0;
-
-  li :hover {
-    text-decoration: underline;
-    align-self: auto;
+   padding: 10px 0;
+  .header-elements{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
   }
-
-  li a {
-    text-decoration: none;
+  a{
     color: #fff;
-    font-family: $fontFamily;
-    font-family: bold;
-    margin: 4%;
+    text-decoration: none;
+    margin-left: 15px;
+    &:hover{
+      color: #f8f9fa80;
+    }
   }
 }
+.welcome{
+  position: relative;
+  padding: 100px;
+  img{
+    width: 75%;
+    height: auto;
+  }
+  .release{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background: #a07cbc;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    a{
+      text-decoration: none;
+      color: #fff;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  h1{
+    font-weight: $header-font-weight;
+    font-size: 2.5rem;
+  }
+  p{
+    font-size: 1.4rem;
+  }
+}
+
