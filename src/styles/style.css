@@ -185,4 +185,153 @@ header a:hover {
   top: 0;
   left: 10px;
 }
+
+.magazine {
+  background: #f8f9fa;
+}
+
+.magazine .mag-header {
+  border: 1px solid blue;
+}
+
+.magazine .services-logo .mag-content {
+  border: 1px solid #dee2e6;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.magazine .services-logo .mag-content .mag-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 15px;
+}
+
+.magazine .services-logo .mag-content .mag-footer a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.magazine .services-logo .mag-content .mag-footer a:hover {
+  text-decoration: underline;
+}
+
+.magazine .services-logo .mag-content .mag-footer span {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.magazine .more-article {
+  border: 1px solid red;
+}
+
+.more-options {
+  border: 1px solid #000;
+  background: #e9ecef;
+}
+
+.more-options .services-logo {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.more-options .mag-content {
+  border: 1px solid #dee2e6;
+  background: #fff;
+  margin-left: 10px;
+}
+
+.fedora-jumbotron {
+  width: 95%;
+  margin: 0 auto;
+  background: #f8f9fa;
+}
+
+.fedora-jumbotron .img {
+  text-align: center;
+}
+
+.fedora-jumbotron .fed-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3rem;
+}
+
+.fedora-jumbotron .fed-text em {
+  font-weight: 600;
+}
+
+footer {
+  border: 1px solid #000;
+  background: #343a40;
+  color: #fff;
+}
+
+footer .footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer-links .links:nth-child(2) {
+  margin: 0 25px;
+}
+
+footer .footer-links .links .first {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+footer .footer-links .links ul {
+  list-style: none;
+}
+
+footer .footer-links .links ul li:not(.first) {
+  border: 1px solid #000;
+  margin-top: 10px;
+}
+
+footer .footer-more-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-more-links .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer a {
+  color: #999;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=style.css.map */
