@@ -260,7 +260,7 @@ footer{
      ul{
        list-style: none;
        li:not(.first){
-         border: 1px solid #000;
+        //  border: 1px solid #000;
          margin-top: 10px;
        }
      }
@@ -273,6 +273,16 @@ footer{
     align-items: center;
     .social{
       display: flex;
+      margin-bottom: 10px;
+      font-size: 15px;
+      .fa-facebook{
+        // border: 1px solid #000;
+        margin-right: 20px;
+      }
+    }
+    .fed-lang{
+      // border: 1px solid #000;
+      margin-top: 10px;
     }
   }
   a{
@@ -282,5 +292,9 @@ footer{
     &:hover{
       text-decoration: underline;
     }
+  }
+  .red-hat{
+    // border: 1px solid #000;
+    margin: 15px 0;
   }
 }

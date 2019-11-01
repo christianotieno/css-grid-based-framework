@@ -9,12 +9,19 @@
 }
 
 //Creating the breakpoints map
+// $breakpoints : (
+//   xl : 1440px,
+//   lg : 1024px,
+//   md : 767px,
+//   sm : 575px,
+//   xs : 425px
+// );
 $breakpoints : (
-  xl : 1440px,
-  lg : 1024px,
-  md : 767px,
+  xs : 425px,
   sm : 575px,
-  xs : 425px
+  md : 767px,
+  lg : 1024px,
+  xl : 1440px
 );
 
 //Style the rows and the columns

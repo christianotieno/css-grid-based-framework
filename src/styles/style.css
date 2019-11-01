@@ -300,7 +300,6 @@ footer .footer-links .links ul {
 }
 
 footer .footer-links .links ul li:not(.first) {
-  border: 1px solid #000;
   margin-top: 10px;
 }
 
@@ -324,6 +323,16 @@ footer .footer-more-links .social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+footer .footer-more-links .social .fa-facebook {
+  margin-right: 20px;
+}
+
+footer .footer-more-links .fed-lang {
+  margin-top: 10px;
 }
 
 footer a {
@@ -333,5 +342,9 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+footer .red-hat {
+  margin: 15px 0;
 }
 /*# sourceMappingURL=style.css.map */
