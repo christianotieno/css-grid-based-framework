@@ -65,7 +65,8 @@ header {
   padding: 50px;
   background: #f8f9fa;
   border: 1px solid $border-color;
-  // display: flex;
+  display: flex;
+  // grid-template-columns: 2;
   .content{
     border: 1px solid $border-color;
     border-radius: 5px;
@@ -131,6 +132,11 @@ header {
     width: 90%;
     margin: 0 auto;
   }
+
+  .emerging{
+    // border: 1px solid #000;
+    text-align: center;
+  }
   .more-services{
     height: 150px;
     width: 85%;
@@ -172,7 +178,7 @@ header {
   // border: 1px solid #000;
   .mag-header{
     border: 1px solid blue;
-    
+    // margin: 0 5%;
   }
   .services-logo{
     // border: 1px solid purple;

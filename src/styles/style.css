@@ -74,6 +74,9 @@ header a:hover {
   padding: 50px;
   background: #f8f9fa;
   border: 1px solid #dee2e6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .more-content .content {
@@ -146,6 +149,10 @@ header a:hover {
 .more-fed-service .services-logo {
   width: 90%;
   margin: 0 auto;
+}
+
+.more-fed-service .emerging {
+  text-align: center;
 }
 
 .more-fed-service .more-services {

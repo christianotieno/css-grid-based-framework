@@ -8,6 +8,9 @@
   max-width: 100%;
 }
 
+.fedora {
+  margin: 0 10%;
+}
 $breakpoints: (
   xs: 0,
   sm: 576px,
@@ -33,13 +36,13 @@ $col-margin : 5px;
 
 //
 @function calcwidth($n) {
-  @return calc((#{$n} / 16 * 100%) - 2 * #{$col-margin});
+  @return calc((#{$n} / 12 * 100%) - 2 * #{$col-margin});
 }
 //loop through the breakpoints
 
 @each $size, $value in $breakpoints {
   @media (min-width: $value) {
-    @for $i from 1 through 16 {
+    @for $i from 1 through 12 {
       .col-#{$size}-#{$i} {
         flex-grow: 1;
         width: calcwidth($i);
