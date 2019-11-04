@@ -129,17 +129,19 @@ header {
   // width: 90%;
   // margin: 0 10%;
   .services-logo{
-    width: 90%;
+    width: 78%;
     margin: 0 auto;
+    // border: 1px solid #000;
   }
 
   .emerging{
-    // border: 1px solid #000;
+    // border: 1px solid red;
     text-align: center;
+    // width: 78%;
   }
   .more-services{
     height: 150px;
-    width: 85%;
+    // width: 85%;
     // margin: 0 auto; 
    border: 1px solid $border-color;
    border-radius: 5px;
@@ -158,17 +160,42 @@ header {
       }
     }
   }
+  .more-serv-1{
+    // border: 1px solid springgreen;
+    margin: 0 5px 0 0;
+    width: 350px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    height: 170px;
+  }
+  .more-serv-2{
+    // border: 1px solid springgreen;
+    margin: 0 5px;
+    width: 350px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    height: 170px;
+  }
+  .more-serv-3{
+    // border: 1px solid springgreen;
+    margin: 0 0 0 5px;
+    width: 350px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    height: 170px;
+  }
   [class*="col-"]{
     position: relative;
     // border: 1px solid #000;
     padding-top: 35px;
-    &:nth-child(2){
-      margin: 0 10px;
-    }
+    // &:nth-child(2){
+    //   // margin: 0 10px;
+    //   border: 1px solid #000;
+    // }
     .img-view{
       position: absolute;
       top: 0;
-      left: 10px;
+      left: 30px;
       // border: 1px solid green;
     }
   }
@@ -296,9 +323,9 @@ header {
 }
 .fedora-jumbotron{
   // border: 1px solid #000;
-  width: 95%;
+  width: 78%;
   margin: 0 auto;
-  background: #f8f9fa;
+  // background: #f8f9fa;
   // height: 300px;
   // margin: 25px 0;
   .img{
@@ -317,7 +344,7 @@ header {
   }
 }
 footer{
-  border: 1px solid #000;
+  // border: 1px solid #000;
   background: #343a40;
   color: #fff;
   .footer-links{

@@ -147,7 +147,7 @@ header a:hover {
 }
 
 .more-fed-service .services-logo {
-  width: 90%;
+  width: 78%;
   margin: 0 auto;
 }
 
@@ -157,7 +157,6 @@ header a:hover {
 
 .more-fed-service .more-services {
   height: 150px;
-  width: 85%;
   border: 1px solid #dee2e6;
   border-radius: 5px;
   background: #fff;
@@ -178,19 +177,42 @@ header a:hover {
   text-decoration: underline;
 }
 
+.more-fed-service .more-serv-1 {
+  margin: 0 5px 0 0;
+  width: 350px;
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 170px;
+}
+
+.more-fed-service .more-serv-2 {
+  margin: 0 5px;
+  width: 350px;
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 170px;
+}
+
+.more-fed-service .more-serv-3 {
+  margin: 0 0 0 5px;
+  width: 350px;
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 170px;
+}
+
 .more-fed-service [class*="col-"] {
   position: relative;
   padding-top: 35px;
 }
 
-.more-fed-service [class*="col-"]:nth-child(2) {
-  margin: 0 10px;
-}
-
 .more-fed-service [class*="col-"] .img-view {
   position: absolute;
   top: 0;
-  left: 10px;
+  left: 30px;
 }
 
 .magazine {
@@ -329,9 +351,8 @@ header a:hover {
 }
 
 .fedora-jumbotron {
-  width: 95%;
+  width: 78%;
   margin: 0 auto;
-  background: #f8f9fa;
 }
 
 .fedora-jumbotron .img {
@@ -353,7 +374,6 @@ header a:hover {
 }
 
 footer {
-  border: 1px solid #000;
   background: #343a40;
   color: #fff;
 }
