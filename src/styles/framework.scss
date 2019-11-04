@@ -1,83 +1,70 @@
-//Create the container and container-fluid config
 .container {
-  max-width: 95%;
-  margin: 0 auto;
-  // width: 95%;
+    max-width: 95%;
+    margin: 0 auto;
 }
 
 .container-fluid {
-  max-width: 100%;
-  // width: 100%;
+    max-width: 100%;
 }
 
 .fedora {
-  margin: 0 10%;
+    margin: 0 10%;
 }
-$breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px
-);
 
-//Style the rows and the columns
-
-$col-margin : 5px;
-
+$breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$col-margin: 5px;
 .row {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .col {
-  flex: 1;
-  max-width: 100%;
-  margin: 0 $col-margin;
+    flex: 1;
+    max-width: 100%;
+    margin: 0 $col-margin;
 }
 
-//
 @function calcwidth($n) {
-  @return calc((#{$n} / 12 * 100%) - 2 * #{$col-margin});
+    @return calc((#{$n} / 12 * 100%) - 2 * #{$col-margin});
 }
-//loop through the breakpoints
 
-@each $size, $value in $breakpoints {
-  @media (min-width: $value) {
-    @for $i from 1 through 12 {
-      .col-#{$size}-#{$i} {
-        flex-grow: 1;
-        width: calcwidth($i);
-      }
+@each $size,
+$value in $breakpoints {
+    @media (min-width: $value) {
+        @for $i from 1 through 12 {
+            .col-#{$size}-#{$i} {
+                flex-grow: 1;
+                width: calcwidth($i);
+            }
+        }
     }
-  }
 }
 
-// Styling button
-@mixin colors($color){
-    color:$color;
+@mixin colors($color) {
+    color: $color;
 }
-.btn-download-green{
+
+.btn-download-green {
     @include colors(#61b921);
     background: none;
     border-style: solid;
     border-color: #61b921;
     border-radius: 5px;
     padding: 5px 5px;
-    &:hover{
+    &:hover {
         background: #61b921;
         color: #fff;
     }
 }
 
-.btn-download-orange{
+.btn-download-orange {
     @include colors(#c17d2a);
     background: none;
     border-style: solid;
     border-color: #c17d2a;
     border-radius: 5px;
     padding: 5px 5px;
-    &:hover{
+    &:hover {
         background: #c17d2a;
         color: #fff;
     }
