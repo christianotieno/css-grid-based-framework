@@ -1,71 +1,75 @@
 .container {
-    max-width: 95%;
-    margin: 0 auto;
+  max-width: 95%;
+  margin: 0 auto;
 }
 
 .container-fluid {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .fedora {
-    margin: 0 10%;
+  margin: 0 10%;
 }
 
 $breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
 $col-margin: 5px;
+
 .row {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .col {
-    flex: 1;
-    max-width: 100%;
-    margin: 0 $col-margin;
+  flex: 1;
+  max-width: 100%;
+  margin: 0 $col-margin;
 }
 
 @function calcwidth($n) {
-    @return calc((#{$n} / 12 * 100%) - 2 * #{$col-margin});
+  @return calc((#{$n} / 12 * 100%) - 2 * #{$col-margin});
 }
 
-@each $size,
-$value in $breakpoints {
-    @media (min-width: $value) {
-        @for $i from 1 through 12 {
-            .col-#{$size}-#{$i} {
-                flex-grow: 1;
-                width: calcwidth($i);
-            }
-        }
+@each $size, $value in $breakpoints {
+  @media (min-width: $value) {
+    @for $i from 1 through 12 {
+      .col-#{$size}-#{$i} {
+        flex-grow: 1;
+        width: calcwidth($i);
+      }
     }
+  }
 }
 
 @mixin colors($color) {
-    color: $color;
+  color: $color;
 }
 
 .btn-download-green {
-    @include colors(#61b921);
-    background: none;
-    border-style: solid;
-    border-color: #61b921;
-    border-radius: 5px;
-    padding: 5px 5px;
-    &:hover {
-        background: #61b921;
-        color: #fff;
-    }
+  @include colors(#61b921);
+
+  background: none;
+  border-style: solid;
+  border-color: #61b921;
+  border-radius: 5px;
+  padding: 5px 5px;
+
+  &:hover {
+    background: #61b921;
+    color: #fff;
+  }
 }
 
 .btn-download-orange {
-    @include colors(#c17d2a);
-    background: none;
-    border-style: solid;
-    border-color: #c17d2a;
-    border-radius: 5px;
-    padding: 5px 5px;
-    &:hover {
-        background: #c17d2a;
-        color: #fff;
-    }
+  @include colors(#c17d2a);
+
+  background: none;
+  border-style: solid;
+  border-color: #c17d2a;
+  border-radius: 5px;
+  padding: 5px 5px;
+
+  &:hover {
+    background: #c17d2a;
+    color: #fff;
+  }
 }
