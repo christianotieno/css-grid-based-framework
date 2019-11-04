@@ -198,7 +198,24 @@ header a:hover {
 }
 
 .magazine .mag-header {
-  border: 1px solid blue;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.magazine .fedora-flag-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.magazine .fedora-flag-text h1 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .magazine .services-logo .mag-content {
@@ -235,12 +252,27 @@ header a:hover {
 }
 
 .magazine .more-article {
-  border: 1px solid red;
+  width: 85%;
+  margin: 20px auto;
+  text-align: right;
+}
+
+.magazine .more-article a {
+  text-decoration: none;
+}
+
+.magazine .more-article a:hover {
+  text-decoration: underline;
 }
 
 .more-options {
-  border: 1px solid #000;
   background: #e9ecef;
+}
+
+.more-options .option-header {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .more-options .services-logo {
@@ -252,6 +284,19 @@ header a:hover {
   border: 1px solid #dee2e6;
   background: #fff;
   margin-left: 10px;
+  margin-bottom: 45px;
+}
+
+.more-options .mag-content a {
+  width: 100%;
+  display: block;
+  text-align: right;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.more-options .mag-content a:hover {
+  text-decoration: underline;
 }
 
 .fedora-jumbotron {
@@ -353,5 +398,11 @@ footer a:hover {
 
 footer .red-hat {
   margin: 15px 0;
+}
+
+@media (max-width: 992px) {
+  .fedora-flag-text h1 {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -173,14 +173,22 @@ header {
     }
   }
 }
-.magazine{
+
+.magazine {
   background: #f8f9fa;
-  // border: 1px solid #000;
-  .mag-header{
-    border: 1px solid blue;
-    // margin: 0 5%;
+  .mag-header {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 25px;
   }
-  .services-logo{
+  .fedora-flag-text {
+    display: flex; 
+    justify-content: flex-end;
+    h1 {
+      align-self: center;
+    }
+  }
+  .services-logo {
     // border: 1px solid purple;
     .mag-content{
       border: 1px solid $border-color;
@@ -207,12 +215,25 @@ header {
     }
   }
   .more-article{
-    border: 1px solid red;
+    // border: 1px solid red;
     // display: block;
+    width: 85%;
+    margin: 20px auto;
+    text-align: right;
+    a{
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
   }
 }
 .more-options{
-  border: 1px solid #000;
+  .option-header {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
   background: #e9ecef;
   .services-logo{
     // border: 1px solid darkblue;
@@ -223,6 +244,17 @@ header {
     border: 1px solid $border-color;
     background: #fff;
     margin-left: 10px;
+    margin-bottom: 45px;
+    a{
+      width: 100%;
+      display: block;
+      text-align: right;
+      margin-bottom: 15px;
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
   }
 }
 .fedora-jumbotron{
@@ -302,5 +334,12 @@ footer{
   .red-hat{
     // border: 1px solid #000;
     margin: 15px 0;
+  }
+}
+
+//making the media querie to hide the text on the right
+@media (max-width:992px){
+  .fedora-flag-text h1{
+    display: none;
   }
 }
