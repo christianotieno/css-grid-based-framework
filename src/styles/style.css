@@ -198,7 +198,8 @@ header a:hover {
 }
 
 .magazine .mag-header {
-  width: 85%;
+  margin: 0 10%;
+  width: 76%;
   margin: 0 auto;
   margin-bottom: 25px;
 }
@@ -218,9 +219,13 @@ header a:hover {
       align-self: center;
 }
 
+.magazine .services-logo {
+  margin: 0 10%;
+}
+
 .magazine .services-logo .mag-content {
   border: 1px solid #dee2e6;
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -252,7 +257,7 @@ header a:hover {
 }
 
 .magazine .more-article {
-  width: 85%;
+  width: 78%;
   margin: 20px auto;
   text-align: right;
 }
@@ -270,24 +275,48 @@ header a:hover {
 }
 
 .more-options .option-header {
-  width: 85%;
+  width: 78%;
   margin: 0 auto;
   text-align: center;
 }
 
 .more-options .services-logo {
-  width: 95%;
+  width: 78%;
   margin: 0 auto;
 }
 
-.more-options .mag-content {
+.more-options .services-logo .more-opt-1 {
+  margin: 0 10px 0 0;
+  padding: 5px 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 270px;
+}
+
+.more-options .services-logo .more-opt-2 {
+  margin: 0 10px;
+  padding: 5px 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 270px;
+}
+
+.more-options .services-logo .more-opt-3 {
+  border: 1px solid red;
+  margin: 0 0 0 10px;
+  padding: 5px 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 270px;
+}
+
+.more-options .services-logo .mag-content {
   border: 1px solid #dee2e6;
   background: #fff;
-  margin-left: 10px;
   margin-bottom: 45px;
 }
 
-.more-options .mag-content a {
+.more-options .services-logo .mag-content a {
   width: 100%;
   display: block;
   text-align: right;
@@ -295,7 +324,7 @@ header a:hover {
   text-decoration: none;
 }
 
-.more-options .mag-content a:hover {
+.more-options .services-logo .mag-content a:hover {
   text-decoration: underline;
 }
 

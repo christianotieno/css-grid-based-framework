@@ -127,7 +127,7 @@ header {
   padding-bottom: 35px;
   // border: 2px solid green;
   // width: 90%;
-  // margin: 0 auto;
+  // margin: 0 10%;
   .services-logo{
     width: 90%;
     margin: 0 auto;
@@ -176,24 +176,35 @@ header {
 
 .magazine {
   background: #f8f9fa;
+  // background: cornflowerblue;
+  // margin: 0 10%;
+
   .mag-header {
-    width: 85%;
+    margin: 0 10%;
+    width: 76%;
     margin: 0 auto;
     margin-bottom: 25px;
+    // border: 1px solid #000;
   }
   .fedora-flag-text {
     display: flex; 
     justify-content: flex-end;
+    // border: 1px solid #000;
+    // margin-right:20px;
     h1 {
       align-self: center;
+      // margin: 0 10%;
+      // border: 1px solid #000;
     }
   }
   .services-logo {
     // border: 1px solid purple;
+    margin: 0 10%;
+    // background: chocolate;
     .mag-content{
       border: 1px solid $border-color;
-    width: 85%;
-    margin: 0 auto;
+      width: 90%;
+      margin: 0 auto;
     .mag-footer{
       display: flex;
       flex-direction: column;
@@ -217,7 +228,7 @@ header {
   .more-article{
     // border: 1px solid red;
     // display: block;
-    width: 85%;
+    width: 78%;
     margin: 20px auto;
     text-align: right;
     a{
@@ -230,30 +241,56 @@ header {
 }
 .more-options{
   .option-header {
-    width: 85%;
+    width: 78%;
     margin: 0 auto;
     text-align: center;
+    // border: 1px solid #000;
   }
   background: #e9ecef;
   .services-logo{
     // border: 1px solid darkblue;
-    width: 95%;
+    width: 78%;
     margin: 0 auto;
-  }
-  .mag-content{
-    border: 1px solid $border-color;
-    background: #fff;
-    margin-left: 10px;
-    margin-bottom: 45px;
-    a{
-      width: 100%;
-      display: block;
-      text-align: right;
-      margin-bottom: 15px;
-      text-decoration: none;
-      &:hover{
-        text-decoration: underline;
+    .more-opt-1{
+      // border: 1px solid red;
+      margin: 0 10px 0 0;
+      padding: 5px 15px;
+      box-sizing: border-box;
+      height: 270px;
+    }
+    .more-opt-2{
+      // border: 1px solid red;
+      margin: 0 10px;
+      padding: 5px 15px;
+      box-sizing: border-box;
+      height: 270px;
+    }
+    .more-opt-3{
+      border: 1px solid red;
+      margin: 0 0 0 10px;
+      padding: 5px 15px;
+      box-sizing: border-box;
+      height: 270px;
+    }
+    .mag-content{
+      border: 1px solid $border-color;
+      background: #fff;
+      margin-bottom: 45px;
+      a{
+        width: 100%;
+        display: block;
+        text-align: right;
+        margin-bottom: 15px;
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
+      // .more-opt-2{
       }
+    // }
+    // .more-opt-3{
+
+    // }
     }
   }
 }
