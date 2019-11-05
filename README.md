@@ -8,7 +8,7 @@
   <h3 align="center">Grid-Based-Framework-README</h3>
 
   <p align="center">
-    A README file detailing how we created our own grid-based framework.
+    This README details how we created our own grid-based framework and how to use the resultant work.
     <br />
     <a href="https://github.com/ChristianOtieno/Grid-Based-Framework"><strong>Explore the docs »</strong></a>
     <br />
