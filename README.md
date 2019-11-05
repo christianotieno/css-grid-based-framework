@@ -5,7 +5,7 @@
     <img src="./src/styles/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Grid-Based-Framework-README-Template</h3>
+  <h3 align="center">Grid-Based-Framework-README</h3>
 
   <p align="center">
     A READEME file detailing how we created our own grid-based framework.
@@ -76,7 +76,7 @@ git clone https://github.com/ChristianOtieno/Grid-Based-Framework.git
 ```sh
 npm install i
 ```
-4. Open command prompt in `The-News-Week-Clone` folder
+4. Open command prompt in `Grid-Based-Framework` folder
 
 5. Run the application using open live server functionality.
 
@@ -87,9 +87,9 @@ npm install i
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. [![GitHub forks](https://img.shields.io/github/forks/ChristianOtieno/Grid-Based-Framework?style=social)](https://github.com/ChristianOtieno/Grid-Based-Framework)
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/FrameworkFeature`)
+3. Commit your Changes (`git commit -m 'Add some FrameworkFeature'`)
+4. Push to the Branch (`git push origin feature/FrameworkFeature`)
 5. Open a Pull Request
 
 
