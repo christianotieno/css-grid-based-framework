@@ -15,8 +15,8 @@ header .header-elements {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 header #editions {
@@ -100,8 +100,8 @@ header #editions:hover {
   padding-bottom: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .more-content .content p {
@@ -169,7 +169,7 @@ header #editions:hover {
   width: 350px;
   padding: 5px 10px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   height: 170px;
 }
 
@@ -178,7 +178,7 @@ header #editions:hover {
   width: 350px;
   padding: 5px 10px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   height: 170px;
 }
 
@@ -187,7 +187,7 @@ header #editions:hover {
   width: 350px;
   padding: 5px 10px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   height: 170px;
 }
 
@@ -217,14 +217,14 @@ header #editions:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .magazine .fedora-flag-text h1 {
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .magazine .services-logo {
@@ -243,8 +243,8 @@ header #editions:hover {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-left: 15px;
 }
 
@@ -297,7 +297,7 @@ header #editions:hover {
   margin: 0 10px 0 0;
   padding: 5px 15px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   height: 270px;
 }
 
@@ -305,7 +305,7 @@ header #editions:hover {
   margin: 0 10px;
   padding: 5px 15px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   height: 270px;
 }
 
@@ -314,7 +314,7 @@ header #editions:hover {
   margin: 0 0 0 10px;
   padding: 5px 15px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   height: 270px;
 }
 
@@ -350,8 +350,8 @@ header #editions:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 1.3rem;
 }
 
@@ -369,8 +369,8 @@ footer .footer-links {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 footer .footer-links .links:nth-child(2) {
@@ -395,15 +395,15 @@ footer .footer-more-links {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 footer .footer-more-links .social {
@@ -436,8 +436,8 @@ footer .red-hat {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 0 5px;
 }
 
@@ -455,4 +455,3 @@ footer .red-hat {
     display: none;
   }
 }
-/*# sourceMappingURL=style.css.map */
