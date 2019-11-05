@@ -19,7 +19,7 @@ header {
     justify-content: space-between;
   }
 
-  a {
+  #editions {
     color: #fff;
     text-decoration: none;
     margin-left: 15px;
@@ -51,7 +51,7 @@ header {
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
 
-    a {
+    #fedora31 {
       text-decoration: none;
       color: #fff;
 
@@ -77,6 +77,16 @@ header {
   border: 1px solid $border-color;
   display: flex;
 
+  #content-left {
+    margin: 0 10px 0 0;
+    width: 700px;
+  }
+
+  #content-right {
+    margin: 0 0 0 10px;
+    width: 700px;
+  }
+
   .content {
     border: 1px solid $border-color;
     border-radius: 5px;
@@ -98,30 +108,11 @@ header {
       text-transform: uppercase;
       color: #6c757d;
     }
-
-    .footer-view {
-      display: flex;
-      justify-content: space-between;
-      padding: 0 5px;
-
-      a {
-        color: #007bff;
-        text-decoration: none;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
   }
 
   [class*="col-"] {
     position: relative;
     padding-top: 35px;
-
-    &:last-child {
-      margin-left: 10px;
-    }
 
     .img-view {
       position: absolute;
@@ -154,7 +145,7 @@ header {
       margin-top: 55px;
     }
 
-    a {
+    .learn {
       display: block;
       text-align: right;
       margin-right: 15px;
@@ -233,7 +224,7 @@ header {
         flex-direction: column;
         margin-left: 15px;
 
-        a {
+        #firefox {
           text-decoration: none;
           color: #000;
           font-weight: bold;
@@ -257,10 +248,10 @@ header {
     margin: 20px auto;
     text-align: right;
 
-    a {
+    #fedora-maga {
       text-decoration: none;
 
-     &:hover {
+      &:hover {
         text-decoration: underline;
       }
     }
@@ -307,7 +298,7 @@ header {
       background: #fff;
       margin-bottom: 45px;
 
-      a {
+      .more-learn {
         width: 100%;
         display: block;
         text-align: right;
@@ -393,14 +384,25 @@ footer {
   a {
     color: #999;
     text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 
   .red-hat {
     margin: 15px 0;
+  }
+}
+
+.link-anchor {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

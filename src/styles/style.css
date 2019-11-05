@@ -19,13 +19,13 @@ header .header-elements {
           justify-content: space-between;
 }
 
-header a {
+header #editions {
   color: #fff;
   text-decoration: none;
   margin-left: 15px;
 }
 
-header a:hover {
+header #editions:hover {
   color: #f8f9fa80;
 }
 
@@ -52,12 +52,12 @@ header a:hover {
   border-bottom-left-radius: 1em;
 }
 
-.welcome .release a {
+.welcome .release #fedora31 {
   text-decoration: none;
   color: #fff;
 }
 
-.welcome .release a:hover {
+.welcome .release #fedora31:hover {
   text-decoration: underline;
 }
 
@@ -77,6 +77,16 @@ header a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.more-content #content-left {
+  margin: 0 10px 0 0;
+  width: 700px;
+}
+
+.more-content #content-right {
+  margin: 0 0 0 10px;
+  width: 700px;
 }
 
 .more-content .content {
@@ -107,32 +117,9 @@ header a:hover {
   color: #6c757d;
 }
 
-.more-content .content .footer-view {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 0 5px;
-}
-
-.more-content .content .footer-view a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.more-content .content .footer-view a:hover {
-  text-decoration: underline;
-}
-
 .more-content [class*="col-"] {
   position: relative;
   padding-top: 35px;
-}
-
-.more-content [class*="col-"]:last-child {
-  margin-left: 10px;
 }
 
 .more-content [class*="col-"] .img-view {
@@ -166,14 +153,14 @@ header a:hover {
   margin-top: 55px;
 }
 
-.more-fed-service .more-services a {
+.more-fed-service .more-services .learn {
   display: block;
   text-align: right;
   margin-right: 15px;
   text-decoration: none;
 }
 
-.more-fed-service .more-services a:hover {
+.more-fed-service .more-services .learn:hover {
   text-decoration: underline;
 }
 
@@ -261,14 +248,14 @@ header a:hover {
   margin-left: 15px;
 }
 
-.magazine .services-logo .mag-content .mag-footer a {
+.magazine .services-logo .mag-content .mag-footer #firefox {
   text-decoration: none;
   color: #000;
   font-weight: bold;
   margin: 10px 0;
 }
 
-.magazine .services-logo .mag-content .mag-footer a:hover {
+.magazine .services-logo .mag-content .mag-footer #firefox:hover {
   text-decoration: underline;
 }
 
@@ -283,11 +270,11 @@ header a:hover {
   text-align: right;
 }
 
-.magazine .more-article a {
+.magazine .more-article #fedora-maga {
   text-decoration: none;
 }
 
-.magazine .more-article a:hover {
+.magazine .more-article #fedora-maga:hover {
   text-decoration: underline;
 }
 
@@ -337,7 +324,7 @@ header a:hover {
   margin-bottom: 45px;
 }
 
-.more-options .services-logo .mag-content a {
+.more-options .services-logo .mag-content .more-learn {
   width: 100%;
   display: block;
   text-align: right;
@@ -345,7 +332,7 @@ header a:hover {
   text-decoration: none;
 }
 
-.more-options .services-logo .mag-content a:hover {
+.more-options .services-logo .mag-content .more-learn:hover {
   text-decoration: underline;
 }
 
@@ -440,12 +427,27 @@ footer a {
   text-decoration: none;
 }
 
-footer a:hover {
-  text-decoration: underline;
-}
-
 footer .red-hat {
   margin: 15px 0;
+}
+
+.link-anchor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 5px;
+}
+
+.link-anchor a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link-anchor a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 992px) {
