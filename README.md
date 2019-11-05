@@ -86,7 +86,7 @@ npm install i
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork ![GitHub forks](https://img.shields.io/github/forks/ChristianOtieno/Grid-Based-Framework?style=social) the Project
+1. [![GitHub forks](https://img.shields.io/github/forks/ChristianOtieno/Grid-Based-Framework?style=social)](https://github.com/ChristianOtieno/Grid-Based-Framework)
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
@@ -104,9 +104,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Christian Otieno - ![Twitter Follow](https://img.shields.io/twitter/follow/iamchrisotieno?label=Christian%20Otieno&style=social), ![GitHub followers](https://img.shields.io/github/followers/ChristianOtieno?label=Christian%20Otieno&style=social)
+Christian Otieno - [![Twitter Follow](https://img.shields.io/twitter/follow/iamchrisotieno?label=Christian%20Otieno&style=social)](https://twitter.com/iamchrisotieno), [![GitHub followers](https://img.shields.io/github/followers/ChristianOtieno?label=Christian%20Otieno&style=social)](https://github.com/ChristianOtieno)
 
-Roodz Fernando - ![Twitter Follow](https://img.shields.io/twitter/follow/RoodzFernando?label=Roodz%20Fernando&style=social), ![GitHub followers](https://img.shields.io/github/followers/RoodzFernando?label=Roodz%20Fernando&style=social)
+Roodz Fernando - [![Twitter Follow](https://img.shields.io/twitter/follow/RoodzFernando?label=Roodz%20Fernando&style=social)](https://twitter.com/RoodzFernando), [![GitHub followers](https://img.shields.io/github/followers/RoodzFernando?label=Roodz%20Fernando&style=social)](https://github.com/RoodzFernando)
 
 
 
