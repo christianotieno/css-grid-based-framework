@@ -104,9 +104,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Christian Otieno - [![Twitter Follow](https://img.shields.io/twitter/follow/iamchrisotieno?label=Christian%20Otieno&style=social)](https://twitter.com/iamchrisotieno), [![GitHub followers](https://img.shields.io/github/followers/ChristianOtieno?label=Christian%20Otieno&style=social)](https://github.com/ChristianOtieno)
+Christian Otieno - [![Twitter Follow](https://img.shields.io/twitter/follow/iamchrisotieno?label=Christian%20Otieno&style=social)](https://twitter.com/iamchrisotieno) [![GitHub followers](https://img.shields.io/github/followers/ChristianOtieno?label=Christian%20Otieno&style=social)](https://github.com/ChristianOtieno) [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/christianotieno/)
 
-Roodz Fernando - [![Twitter Follow](https://img.shields.io/twitter/follow/RoodzFernando?label=Roodz%20Fernando&style=social)](https://twitter.com/RoodzFernando), [![GitHub followers](https://img.shields.io/github/followers/RoodzFernando?label=Roodz%20Fernando&style=social)](https://github.com/RoodzFernando)
+Roodz Fernando - [![Twitter Follow](https://img.shields.io/twitter/follow/RoodzFernando?label=Roodz%20Fernando&style=social)](https://twitter.com/RoodzFernando) [![GitHub followers](https://img.shields.io/github/followers/RoodzFernando?label=Roodz%20Fernando&style=social)](https://github.com/RoodzFernando) [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/roodz-fernando-fleurant/)
 
 
 
