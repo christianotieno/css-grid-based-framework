@@ -13,9 +13,6 @@ module.exports = {
         "at-rule-name-case": "lower",
         "at-rule-name-space-after": "always-single-line",
         "at-rule-semicolon-newline-after": "always",
-        "at-rule-no-unknown":["false", {
-            ignoreAtRules: ["/regex/", /regex/, "string"]
-        }],
         "block-closing-brace-empty-line-before": "never",
         "block-closing-brace-newline-after": "always",
         "block-closing-brace-newline-before": "always-multi-line",
@@ -82,9 +79,6 @@ module.exports = {
         "media-query-list-comma-space-before": "never",
         "no-eol-whitespace": true,
         "no-missing-end-of-source-newline": false,
-        "no-descending-specificity": {
-            ignore: ["selectors-within-list"]
-        },
         "number-leading-zero": "always",
         "number-no-trailing-zeros": true,
         "property-case": "lower",
