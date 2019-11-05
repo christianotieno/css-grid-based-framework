@@ -137,6 +137,6 @@ maroonfoothill : #cc0000, greenfoothill : #5fa624, pinkfoothill : #e16389, indig
 @each $colorfoot, $colorneighbor in $background-map {
   .#{$colorfoot} {
     background-color: $colorneighbor;
-    color: $colorneighbor;
+    color: darken($colorneighbor, 15%);
   }  
 }
