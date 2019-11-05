@@ -130,4 +130,12 @@ $horizontal-alignments : (horizontal-left : flex-start, horizontal-center : cent
 }
 
 //Backgroung and text
+$background-map: (redfoothill : #af0029, bluefoothill : #072f5f, yellowfoothill : #edb970, 
+orangefoothill : #e4a241, purplefoothill : #4429b8, greyfoothill : #8c8c8c, 
+maroonfoothill : #cc0000, greenfoothill : #5fa624, pinkfoothill : #e16389, indigofoothill : #7400b3);
 
+@each $colorfoot, $colorneighbor in $background-map {
+  .#{$colorfoot} {
+    background-color: $colorneighbor;
+  }  
+}
