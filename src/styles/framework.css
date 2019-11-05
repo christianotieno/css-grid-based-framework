@@ -499,41 +499,51 @@
 
 .redfoothill {
   background-color: #af0029;
+  color: #af0029;
 }
 
 .bluefoothill {
   background-color: #072f5f;
+  color: #072f5f;
 }
 
 .yellowfoothill {
   background-color: #edb970;
+  color: #edb970;
 }
 
 .orangefoothill {
   background-color: #e4a241;
+  color: #e4a241;
 }
 
 .purplefoothill {
   background-color: #4429b8;
+  color: #4429b8;
 }
 
 .greyfoothill {
   background-color: #8c8c8c;
+  color: #8c8c8c;
 }
 
 .maroonfoothill {
   background-color: #cc0000;
+  color: #cc0000;
 }
 
 .greenfoothill {
   background-color: #5fa624;
+  color: #5fa624;
 }
 
 .pinkfoothill {
   background-color: #e16389;
+  color: #e16389;
 }
 
 .indigofoothill {
   background-color: #7400b3;
+  color: #7400b3;
 }
 /*# sourceMappingURL=framework.css.map */
