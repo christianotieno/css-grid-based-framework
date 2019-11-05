@@ -73,3 +73,61 @@ $col-margin: 5px;
     color: #fff;
   }
 }
+
+//Floats
+
+.left-position {
+    float: left;
+}
+
+.right-position {
+  float: right;
+}
+
+.clear-float {
+  clear: both;
+}
+
+// Position
+
+$positions-map : (position-fixed : fixed, position-static : static, position-relative : relative);
+
+@each $position, $value in $positions-map {
+  .#{$position} {
+    position: $value;
+  }
+}
+
+// Display properties
+
+$display-map : (display-flex : flex, display-none : none);
+
+@each $display, $display-value in $display-map {
+  .#{display} {
+    display: $display-value;
+  }
+}
+
+// Flex properties
+
+//vertical alignment
+
+$vertical-alignments : (vertical-top : flex-start, vertical-center : center, vertical-bottom : flex-end);
+
+@each $vert-align, $vert-value in $vertical-alignments {
+  .#{$vert-align} {
+    align-content: $vert-value;
+  }
+}
+
+// Horizontal alignment
+$horizontal-alignments : (horizontal-left : flex-start, horizontal-center : center, horizontal-right : flex-end);
+
+@each $horiz-align, $horiz-value in $horizontal-alignments {
+  .#{$horiz-align} {
+    justify-content: $horiz-value;
+  }
+}
+
+//Backgroung and text
+
