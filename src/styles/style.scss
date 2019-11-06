@@ -6,6 +6,7 @@ $border-color: #dee2e6;
 body {
   font-family: $fontFamily;
   color: $text-color;
+  margin: 0 auto;
 }
 
 header {
@@ -22,7 +23,7 @@ header {
   #editions {
     color: #fff;
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 2em;
 
     &:hover {
       color: #f8f9fa80;
@@ -35,8 +36,7 @@ header {
   padding: 100px;
 
   img {
-    width: 75%;
-    height: auto;
+    width: 75% !important;
   }
 
   .release {
@@ -72,19 +72,20 @@ header {
 }
 
 .more-content {
-  padding: 50px;
+  padding: 2em;
   background: #f8f9fa;
   border: 1px solid $border-color;
   display: flex;
+  // border: 1px solid #000;
 
   #content-left {
     margin: 0 10px 0 0;
-    width: 700px;
+    width: 90%;
   }
 
   #content-right {
     margin: 0 0 0 10px;
-    width: 700px;
+    width: 90%;
   }
 
   .content {
@@ -98,6 +99,7 @@ header {
 
     p {
       margin-top: 40px;
+      // border: 1px solid #000;
     }
 
     span {
@@ -127,19 +129,27 @@ header {
   padding-bottom: 35px;
 
   .services-logo {
-    width: 78%;
+    width: 100%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
   }
 
   .emerging {
-    text-align: center;
+    text-align: center !important;
   }
 
   .more-services {
+    
     height: 150px;
+    width: 350px;
     border: 1px solid $border-color;
     border-radius: 5px;
     background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 
     p {
       margin-top: 55px;
@@ -157,28 +167,20 @@ header {
     }
   }
 
-  .more-serv-1 {
-    margin: 0 5px 0 0;
-    width: 350px;
-    padding: 5px 10px;
-    box-sizing: border-box;
-    height: 170px;
+  #more-serv-1 {
+    // margin: 0 5px 0 0;
   }
 
-  .more-serv-2 {
-    margin: 0 5px;
-    width: 350px;
-    padding: 5px 10px;
-    box-sizing: border-box;
-    height: 170px;
+  #more-serv-2 {
+    // margin: 0 5px;
+    background: green;
+    // margin: 0 auto;
+    display: flex;
+    justify-content: center;
   }
 
-  .more-serv-3 {
-    margin: 0 0 0 5px;
-    width: 350px;
-    padding: 5px 10px;
-    box-sizing: border-box;
-    height: 170px;
+  #more-serv-3 {
+    // margin: 0 0 0 5px;
   }
 
   [class*="col-"] {

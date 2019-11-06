@@ -1,0 +1,14 @@
+@media screen and (max-width: 720px) {
+  .more-fed-service {
+    padding: 20px 0;
+  }
+  .more-fed-service .emerging {
+    padding: 0;
+    text-align: center !important;
+    width: 100vw;
+  }
+  .fedora-jumbotron img {
+    width: 75% !important;
+  }
+}
+/*# sourceMappingURL=small-screen.css.map */

@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/framework.css">
     <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/small-screen.css">
+    <link rel="stylesheet" href="./src/styles/large-screen.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <title>Fedora Clone Homepage</title>
@@ -33,7 +35,7 @@
     <section>
 
       <!-- welcome section -->
-      <div class="row welcome container-fluid fedora ">
+      <div class="row welcome container-fluid ">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 ">
           <img src="https://getfedora.org/static/images/g-monitor-fedoralogo.png " alt=" ">
         </div>
@@ -97,12 +99,12 @@
         </div>
 
         <!-- emerging fedora sections -->
-        <div class="row services-logo ">
+        <div class="services-logo ">
           
           <!-- more services one -->
           <div class="col-lg-4 col-xl-4 ">
-            <div class="more-services more-serv-1 ">
-              <div class="header-view ">
+            <div class="more-services" id="more-serv-1 ">
+              <div class="header-view " style="display: flex; justify-content: center;">
                 <div class="img-view "><img src="https://getfedora.org/static/images/fedora-coreos-logo.png " alt=" "></div>
               </div>
               <p>Fedora CoreOS is an automatically updating, minimal, container-focused operating system.</p>
@@ -113,8 +115,8 @@
           </div>
 
           <!-- more services two -->
-          <div class="col-lg-4 col-xl-4 ">
-            <div class="more-services more-serv-2 ">
+          <div class="col-lg-4 col-xl-4" id="more-serv-2 ">
+            <div class="more-services  ">
               <div class="header-view ">
                 <div class="img-view "><img src="https://getfedora.org/static/images/fedora-silverblue-logo.png " alt=" "></div>
               </div>
@@ -127,7 +129,7 @@
 
           <!-- more services three -->
           <div class="col-lg-4 col-xl-4 ">
-            <div class="more-services more-serv-3 ">
+            <div class="more-services" id="more-serv-3 ">
               <div class="header-view ">
                 <div class="img-view "><img src="https://getfedora.org/static/images/fedora-iot-logo.png " alt=" "></div>
               </div>
@@ -265,7 +267,7 @@
         </div>
         
       </div>
-      
+
       <!-- fedora world image -->
       <div class="row fedora-jumbotron ">
         <div class="col-lg-6 col-xl-6 img "><img src="https://getfedora.org/static/images/globe.png " alt=" " style="width: inherit; "></div>
