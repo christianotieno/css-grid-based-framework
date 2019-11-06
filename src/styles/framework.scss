@@ -163,3 +163,12 @@ $fontsize-map : (f-size-30 : 30px, f-size-25 : 25px, f-size-20 : 20px, f-size-15
     font-size: $font-value;
   }
 }
+ // Font-weight
+
+ $fontweight-map : (normal-font : normal, bold-font : bold, medium-font : medium);
+
+ @each $font-class, $font-value in $fontweight-map {
+   .#{$font-class} {
+     font-weight: $font-value;
+   }
+ }

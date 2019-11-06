@@ -586,4 +586,16 @@
 .f-size-10 {
   font-size: 10px;
 }
+
+.normal-font {
+  font-weight: normal;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.medium-font {
+  font-weight: medium;
+}
 /*# sourceMappingURL=framework.css.map */
