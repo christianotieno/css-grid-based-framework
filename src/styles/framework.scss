@@ -154,3 +154,12 @@ $alignment-map : (text-left : left, text-center : center, text-right : right);
   }
 }
 
+// Font-size classes
+
+$fontsize-map : (f-size-30 : 30px, f-size-25 : 25px, f-size-20 : 20px, f-size-15 : 15px, f-size-10 : 10px);
+
+@each $font-class, $font-value in $fontsize-map {
+  .#{$font-class} {
+    font-size: $font-value;
+  }
+}
