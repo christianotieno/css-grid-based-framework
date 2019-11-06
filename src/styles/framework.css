@@ -454,6 +454,10 @@
   position: relative;
 }
 
+.position-absolute {
+  position: absolute;
+}
+
 .display {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -462,6 +466,10 @@
 
 .display {
   display: none;
+}
+
+.dispaly-hidden {
+  visibility: hidden;
 }
 
 .vertical-top {
@@ -545,5 +553,17 @@
 .indigofoothill {
   background-color: #7400b3;
   color: #420067;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 /*# sourceMappingURL=framework.css.map */
