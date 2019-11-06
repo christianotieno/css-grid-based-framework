@@ -76,7 +76,6 @@ header {
   background: #f8f9fa;
   border: 1px solid $border-color;
   display: flex;
-  // border: 1px solid #000;
 
   #content-left {
     margin: 0 10px 0 0;
@@ -99,7 +98,6 @@ header {
 
     p {
       margin-top: 40px;
-      // border: 1px solid #000;
     }
 
     span {
@@ -125,34 +123,23 @@ header {
 }
 
 .more-fed-service {
-  // border: 2px solid red;
   background: #e9ecef;
   padding-bottom: 35px;
 
   .services-logo {
-    // width: 100%;
-    // margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    // border: 1px solid green;
-    // width: 95%;
-    // margin: 0 auto;
     width: 100vw;
-    // height: 250px;
-    // border: 1px solid yellow;
-    // background: purple;
 
     .img-relative {
       position: relative;
-      // background: #000;
       height: 250px;
       width: 300px;
       display: flex;
       align-items: center;
       margin-left: 5px;
     }
-    // visibility: hidden;
   }
 
   .emerging {
@@ -160,8 +147,6 @@ header {
   }
 
   .more-services {
-    // background: saddlebrown;
-    
     padding-top: 35px;
     height: 150px;
     width: 350px;
@@ -170,10 +155,6 @@ header {
     background: #fff;
     display: flex;
     flex-direction: column;
-    // flex-wrap: wrap;
-    // margin-right: -15px;
-    // margin-left: -15px;
-    // border: 1px solid blue;
     p {
       margin-top: 55px;
     }
@@ -181,7 +162,6 @@ header {
     .learn {
       display: block;
       text-align: right;
-      // margin-right: 15px;
       text-decoration: none;
 
       &:hover {
@@ -190,23 +170,7 @@ header {
     }
   }
 
-  // #more-serv-1 {
-    // margin: 0 5px 0 0;
-  // }
-
-  // #more-serv-2 {
-    // margin: 0 5px;
-    // background: green;
-    // margin: 0 auto;
-    // display: flex;
-    // justify-content: center;
-  // }
-
-  // #more-serv-3 {
-    // margin: 0 0 0 5px;
-  // }
-
-  // [class*="col-"] {
+  [class*="col-"] {
     position: relative;
     padding-top: 35px;
 
@@ -215,9 +179,8 @@ header {
       top: 0;
       left: 30px;
     }
-  // }
 }
-
+}
 .magazine {
   background: #f8f9fa;
 

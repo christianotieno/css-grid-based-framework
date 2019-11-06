@@ -131,8 +131,6 @@ header #editions:hover {
 .more-fed-service {
   background: #e9ecef;
   padding-bottom: 35px;
-  position: relative;
-  padding-top: 35px;
 }
 
 .more-fed-service .services-logo {
@@ -194,7 +192,12 @@ header #editions:hover {
   text-decoration: underline;
 }
 
-.more-fed-service .header-view {
+.more-fed-service [class*="col-"] {
+  position: relative;
+  padding-top: 35px;
+}
+
+.more-fed-service [class*="col-"] .header-view {
   position: absolute;
   top: 0;
   left: 30px;
