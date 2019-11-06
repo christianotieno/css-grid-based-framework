@@ -131,16 +131,33 @@ header #editions:hover {
 .more-fed-service {
   background: #e9ecef;
   padding-bottom: 35px;
+  position: relative;
+  padding-top: 35px;
 }
 
 .more-fed-service .services-logo {
-  width: 100%;
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+}
+
+.more-fed-service .services-logo .img-relative {
+  position: relative;
+  height: 250px;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 5px;
 }
 
 .more-fed-service .emerging {
@@ -148,6 +165,7 @@ header #editions:hover {
 }
 
 .more-fed-service .more-services {
+  padding-top: 35px;
   height: 150px;
   width: 350px;
   border: 1px solid #dee2e6;
@@ -156,10 +174,10 @@ header #editions:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .more-fed-service .more-services p {
@@ -169,7 +187,6 @@ header #editions:hover {
 .more-fed-service .more-services .learn {
   display: block;
   text-align: right;
-  margin-right: 15px;
   text-decoration: none;
 }
 
@@ -177,22 +194,7 @@ header #editions:hover {
   text-decoration: underline;
 }
 
-.more-fed-service #more-serv-2 {
-  background: green;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.more-fed-service [class*="col-"] {
-  position: relative;
-  padding-top: 35px;
-}
-
-.more-fed-service [class*="col-"] .img-view {
+.more-fed-service .header-view {
   position: absolute;
   top: 0;
   left: 30px;

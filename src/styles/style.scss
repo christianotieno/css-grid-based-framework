@@ -125,14 +125,34 @@ header {
 }
 
 .more-fed-service {
+  // border: 2px solid red;
   background: #e9ecef;
   padding-bottom: 35px;
 
   .services-logo {
-    width: 100%;
-    margin: 0 auto;
+    // width: 100%;
+    // margin: 0 auto;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    // border: 1px solid green;
+    // width: 95%;
+    // margin: 0 auto;
+    width: 100vw;
+    // height: 250px;
+    // border: 1px solid yellow;
+    // background: purple;
+
+    .img-relative {
+      position: relative;
+      // background: #000;
+      height: 250px;
+      width: 300px;
+      display: flex;
+      align-items: center;
+      margin-left: 5px;
+    }
+    // visibility: hidden;
   }
 
   .emerging {
@@ -140,17 +160,20 @@ header {
   }
 
   .more-services {
+    // background: saddlebrown;
     
+    padding-top: 35px;
     height: 150px;
     width: 350px;
     border: 1px solid $border-color;
     border-radius: 5px;
     background: #fff;
     display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-
+    flex-direction: column;
+    // flex-wrap: wrap;
+    // margin-right: -15px;
+    // margin-left: -15px;
+    // border: 1px solid blue;
     p {
       margin-top: 55px;
     }
@@ -158,7 +181,7 @@ header {
     .learn {
       display: block;
       text-align: right;
-      margin-right: 15px;
+      // margin-right: 15px;
       text-decoration: none;
 
       &:hover {
@@ -167,32 +190,32 @@ header {
     }
   }
 
-  #more-serv-1 {
+  // #more-serv-1 {
     // margin: 0 5px 0 0;
-  }
+  // }
 
-  #more-serv-2 {
+  // #more-serv-2 {
     // margin: 0 5px;
-    background: green;
+    // background: green;
     // margin: 0 auto;
-    display: flex;
-    justify-content: center;
-  }
+    // display: flex;
+    // justify-content: center;
+  // }
 
-  #more-serv-3 {
+  // #more-serv-3 {
     // margin: 0 0 0 5px;
-  }
+  // }
 
-  [class*="col-"] {
+  // [class*="col-"] {
     position: relative;
     padding-top: 35px;
 
-    .img-view {
+    .header-view {
       position: absolute;
       top: 0;
       left: 30px;
     }
-  }
+  // }
 }
 
 .magazine {
