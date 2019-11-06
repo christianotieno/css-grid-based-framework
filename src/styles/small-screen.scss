@@ -1,0 +1,32 @@
+@media screen and (max-width: 720px) {
+    .more-fed-service {
+        padding: 20px 0;
+
+        .emerging {
+            padding: 0;
+            text-align: center !important;
+        }
+        .services-logo {
+            display: flex;
+            flex-direction: column;
+            background: none;
+            width: 100vw;
+            .img-relative {
+                width: 100vw;
+                display: flex;
+                justify-content: center;
+                .header-view {
+                    left : 110px;
+                }
+            }
+
+        }
+    }
+    
+    .fedora-jumbotron {  
+        img {
+        width: 75% !important;
+      }
+  }
+
+}
