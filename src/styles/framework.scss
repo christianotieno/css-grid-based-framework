@@ -109,7 +109,7 @@ $display-map : (display-flex : flex, display-none : none);
 }
 
 //Display hidden
-.dispaly-hidden {
+.display-hidden {
   visibility: hidden;
 }
 // Flex properties
@@ -172,3 +172,59 @@ $fontsize-map : (f-size-30 : 30px, f-size-25 : 25px, f-size-20 : 20px, f-size-15
      font-weight: $font-value;
    }
  }
+
+/*
+
+ BOX UTILITIES
+
+*/
+
+// Margins
+
+$margin-top-map : (none-top : 1rem, top-one-margin: 0.1rem, top-two-margin : 0.2rem, top-three-margin : 0.3rem, top-four-margin : 0.4rem, top-five-margin : 0.5rem,
+top-six-margin : 0.6rem, top-seven-margin : 0.7rem, top-eight-margin : 0.8rem, top-nine-margin : 0.9rem);
+
+@each $margin-class, $margin-side in $margin-top-map {
+  .#{$margin-class}{
+    margin-top : $margin-side;
+  }
+}
+
+$margin-bottom-map : (non-bottom : 1rem, bottom-one-margin : 0.1rem, bottom-two-margin : 0.2rem, bottom-three-margin : 0.3rem, bottom-four-margin : 0.4rem, bottom-five-margin : 0.5rem,
+bottom-six-margin : 0.6rem, bottom-seven-margin : 0.7rem, bottom-eight-margin : 0.8rem, bottom-nine-margin : 0.9rem,);
+
+@each $margin-class, $margin-side in $margin-bottom-map {
+  .#{$margin-class}{
+    margin-bottom: $margin-side;
+  }
+}
+
+$margin-right-map : (one-right : 1rem, right-one-margin : 0.1rem, right-two-margin : 0.2rem, right-three-margin : 0.30rem, right-four-margin : 0.4rem, right-five-margin : 0.5rem,
+right-six-margin : 0.6rem, right-seven-margin : 0.7rem, right-eight-margin : 0.8rem, right-nine-margin : 0.9rem,);
+
+@each $margin-class, $margin-side in $margin-right-map {
+  .#{$margin-class}{
+    margin-right: $margin-side;
+  }
+}
+
+$margin-left-map : (one-left : 1rem, left-one-margin : 0.1rem, left-two-margin : 0.2rem, left-three-margin : 0.3rem, left-four-margin : 0.4rem, left-five-margin : 0.5rem,
+left-six-margin : 0.6rem, left-seven-margin : 0.7rem, left-eight-margin : 0.8rem, left-nine-margin : 0.9rem,);
+
+@each $margin-class, $margin-side in $margin-left-map {
+  .#{$margin-class}{
+    margin-left: $margin-side;
+  }
+}
+
+
+// @function calcmargin($n) {
+//   $auto-margin : (100% - #{$n})/2;
+// }
+
+// .margin-auto {
+//   width: $n;
+//   margin-left : calcmargin($n);
+//   margin-right: calcmargin($n);
+// }
+

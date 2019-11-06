@@ -468,7 +468,7 @@
   display: none;
 }
 
-.dispaly-hidden {
+.display-hidden {
   visibility: hidden;
 }
 
@@ -597,5 +597,170 @@
 
 .medium-font {
   font-weight: medium;
+}
+
+/*
+
+ BOX UTILITIES
+
+*/
+.none-top {
+  margin-top: 1rem;
+}
+
+.top-one-margin {
+  margin-top: 0.1rem;
+}
+
+.top-two-margin {
+  margin-top: 0.2rem;
+}
+
+.top-three-margin {
+  margin-top: 0.3rem;
+}
+
+.top-four-margin {
+  margin-top: 0.4rem;
+}
+
+.top-five-margin {
+  margin-top: 0.5rem;
+}
+
+.top-six-margin {
+  margin-top: 0.6rem;
+}
+
+.top-seven-margin {
+  margin-top: 0.7rem;
+}
+
+.top-eight-margin {
+  margin-top: 0.8rem;
+}
+
+.top-nine-margin {
+  margin-top: 0.9rem;
+}
+
+.non-bottom {
+  margin-bottom: 1rem;
+}
+
+.bottom-one-margin {
+  margin-bottom: 0.1rem;
+}
+
+.bottom-two-margin {
+  margin-bottom: 0.2rem;
+}
+
+.bottom-three-margin {
+  margin-bottom: 0.3rem;
+}
+
+.bottom-four-margin {
+  margin-bottom: 0.4rem;
+}
+
+.bottom-five-margin {
+  margin-bottom: 0.5rem;
+}
+
+.bottom-six-margin {
+  margin-bottom: 0.6rem;
+}
+
+.bottom-seven-margin {
+  margin-bottom: 0.7rem;
+}
+
+.bottom-eight-margin {
+  margin-bottom: 0.8rem;
+}
+
+.bottom-nine-margin {
+  margin-bottom: 0.9rem;
+}
+
+.one-right {
+  margin-right: 1rem;
+}
+
+.right-one-margin {
+  margin-right: 0.1rem;
+}
+
+.right-two-margin {
+  margin-right: 0.2rem;
+}
+
+.right-three-margin {
+  margin-right: 0.3rem;
+}
+
+.right-four-margin {
+  margin-right: 0.4rem;
+}
+
+.right-five-margin {
+  margin-right: 0.5rem;
+}
+
+.right-six-margin {
+  margin-right: 0.6rem;
+}
+
+.right-seven-margin {
+  margin-right: 0.7rem;
+}
+
+.right-eight-margin {
+  margin-right: 0.8rem;
+}
+
+.right-nine-margin {
+  margin-right: 0.9rem;
+}
+
+.one-left {
+  margin-left: 1rem;
+}
+
+.left-one-margin {
+  margin-left: 0.1rem;
+}
+
+.left-two-margin {
+  margin-left: 0.2rem;
+}
+
+.left-three-margin {
+  margin-left: 0.3rem;
+}
+
+.left-four-margin {
+  margin-left: 0.4rem;
+}
+
+.left-five-margin {
+  margin-left: 0.5rem;
+}
+
+.left-six-margin {
+  margin-left: 0.6rem;
+}
+
+.left-seven-margin {
+  margin-left: 0.7rem;
+}
+
+.left-eight-margin {
+  margin-left: 0.8rem;
+}
+
+.left-nine-margin {
+  margin-left: 0.9rem;
 }
 /*# sourceMappingURL=framework.css.map */
