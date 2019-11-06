@@ -228,3 +228,45 @@ left-six-margin : 0.6rem, left-seven-margin : 0.7rem, left-eight-margin : 0.8rem
 //   margin-right: calcmargin($n);
 // }
 
+
+/*
+
+BORDER
+
+*/
+
+$border-top-map : (none-top : 1rem, top-one-border: 0.1rem, top-two-border : 0.2rem, top-three-border : 0.3rem, top-four-border : 0.4rem, top-five-border : 0.5rem,
+top-six-border : 0.6rem, top-seven-border : 0.7rem, top-eight-border : 0.8rem, top-nine-border : 0.9rem);
+
+@each $border-class, $border-side in $border-top-map {
+  .#{$border-class}{
+    border-top : $border-side;
+  }
+}
+
+$border-bottom-map : (non-bottom : 1rem, bottom-one-border : 0.1rem, bottom-two-border : 0.2rem, bottom-three-border : 0.3rem, bottom-four-border : 0.4rem, bottom-five-border : 0.5rem,
+bottom-six-border : 0.6rem, bottom-seven-border : 0.7rem, bottom-eight-border : 0.8rem, bottom-nine-border : 0.9rem,);
+
+@each $border-class, $border-side in $border-bottom-map {
+  .#{$border-class}{
+    border-bottom: $border-side;
+  }
+}
+
+$border-right-map : (one-right : 1rem, right-one-border : 0.1rem, right-two-border : 0.2rem, right-three-border : 0.30rem, right-four-border : 0.4rem, right-five-border : 0.5rem,
+right-six-border : 0.6rem, right-seven-border : 0.7rem, right-eight-border : 0.8rem, right-nine-border : 0.9rem,);
+
+@each $border-class, $border-side in $border-right-map {
+  .#{$border-class}{
+    border-right: $border-side;
+  }
+}
+
+$border-left-map : (one-left : 1rem, left-one-border : 0.1rem, left-two-border : 0.2rem, left-three-border : 0.3rem, left-four-border : 0.4rem, left-five-border : 0.5rem,
+left-six-border : 0.6rem, left-seven-border : 0.7rem, left-eight-border : 0.8rem, left-nine-border : 0.9rem,);
+
+@each $border-class, $border-side in $border-left-map {
+  .#{$border-class}{
+    border-left: $border-side;
+  }
+}

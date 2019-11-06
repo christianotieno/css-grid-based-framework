@@ -763,4 +763,169 @@
 .left-nine-margin {
   margin-left: 0.9rem;
 }
+
+/*
+
+BORDER
+
+*/
+.none-top {
+  border-top: 1rem;
+}
+
+.top-one-border {
+  border-top: 0.1rem;
+}
+
+.top-two-border {
+  border-top: 0.2rem;
+}
+
+.top-three-border {
+  border-top: 0.3rem;
+}
+
+.top-four-border {
+  border-top: 0.4rem;
+}
+
+.top-five-border {
+  border-top: 0.5rem;
+}
+
+.top-six-border {
+  border-top: 0.6rem;
+}
+
+.top-seven-border {
+  border-top: 0.7rem;
+}
+
+.top-eight-border {
+  border-top: 0.8rem;
+}
+
+.top-nine-border {
+  border-top: 0.9rem;
+}
+
+.non-bottom {
+  border-bottom: 1rem;
+}
+
+.bottom-one-border {
+  border-bottom: 0.1rem;
+}
+
+.bottom-two-border {
+  border-bottom: 0.2rem;
+}
+
+.bottom-three-border {
+  border-bottom: 0.3rem;
+}
+
+.bottom-four-border {
+  border-bottom: 0.4rem;
+}
+
+.bottom-five-border {
+  border-bottom: 0.5rem;
+}
+
+.bottom-six-border {
+  border-bottom: 0.6rem;
+}
+
+.bottom-seven-border {
+  border-bottom: 0.7rem;
+}
+
+.bottom-eight-border {
+  border-bottom: 0.8rem;
+}
+
+.bottom-nine-border {
+  border-bottom: 0.9rem;
+}
+
+.one-right {
+  border-right: 1rem;
+}
+
+.right-one-border {
+  border-right: 0.1rem;
+}
+
+.right-two-border {
+  border-right: 0.2rem;
+}
+
+.right-three-border {
+  border-right: 0.3rem;
+}
+
+.right-four-border {
+  border-right: 0.4rem;
+}
+
+.right-five-border {
+  border-right: 0.5rem;
+}
+
+.right-six-border {
+  border-right: 0.6rem;
+}
+
+.right-seven-border {
+  border-right: 0.7rem;
+}
+
+.right-eight-border {
+  border-right: 0.8rem;
+}
+
+.right-nine-border {
+  border-right: 0.9rem;
+}
+
+.one-left {
+  border-left: 1rem;
+}
+
+.left-one-border {
+  border-left: 0.1rem;
+}
+
+.left-two-border {
+  border-left: 0.2rem;
+}
+
+.left-three-border {
+  border-left: 0.3rem;
+}
+
+.left-four-border {
+  border-left: 0.4rem;
+}
+
+.left-five-border {
+  border-left: 0.5rem;
+}
+
+.left-six-border {
+  border-left: 0.6rem;
+}
+
+.left-seven-border {
+  border-left: 0.7rem;
+}
+
+.left-eight-border {
+  border-left: 0.8rem;
+}
+
+.left-nine-border {
+  border-left: 0.9rem;
+}
 /*# sourceMappingURL=framework.css.map */
