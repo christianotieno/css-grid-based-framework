@@ -8,7 +8,7 @@
   <h3 align="center">Grid-Based-Framework-README</h3>
 
   <p align="center">
-    This README details how we created our own grid-based framework and how to use the resultant work.
+    This README details how we created our grid-based framework and how to use the resultant work.
     <br />
     <a href="https://github.com/ChristianOtieno/Grid-Based-Framework"><strong>Explore the docs »</strong></a>
     <br />
@@ -42,16 +42,20 @@
 ## About The Project
 
 
-In this final project, we got to take everything we’ve learned and used it to build our own simple grid-based framework. 
+In this final project, we got to take everything we have learned and used it to build our grid-based framework. 
 
-As with the other final projects, we keep it relatively open-ended to give us a chance to exercise our creativity and problem-solving skills. 
+As with the other final projects, we kept it relatively open-ended to give us a chance to exercise our creativity and problem-solving skills. 
 
 
 ### Built With
 
-We thought about the major elements that was required of a framework. This included a CSS reset, a fixed number of grids separated by “gutters”, a way to make new rows, and default values for the font properties of elements.
+We thought of the major elements that were required of a framework. This included:
+1. A CSS reset.
+2. A fixed number of grids separated by “gutters”. 
+3. A way to make new rows.
+4. and last but not least, default values for the font properties of elements.
 
-* [Our-Own-Grid-Based-Framework](https://github.com/ChristianOtieno/Grid-Based-Framework)
+* [Grid-Based-Framework](https://github.com/ChristianOtieno/Grid-Based-Framework)
 
 <!-- GETTING STARTED -->
 ## Getting Started
